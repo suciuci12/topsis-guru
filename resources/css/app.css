@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== THEME HIJAU SEKOLAH ===== */
+
+:root{
+    --hijau: #059669;
+    --hijau-tua: #064E3B;
+    --hijau-muda: #D1FAE5;
+    --bg-hijau: #ECFDF5;
+}
+
+body{
+    background: #F0FDF4;
+}
+nav a{
+ font-size: 15px;
+}
+
+nav span{
+ font-size: 15px;
+}
+/* === Hover Navbar === */
+.nav-btn{
+ transition: .2s;
+}
+
+.nav-btn:hover{
+ background: rgba(255,255,255,0.2);
+ transform: translateY(-1px);
+}
+
+.nav-active{
+ background: rgba(0,0,0,0.25);
+}
+
+
+/* Card */
+.card{
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+/* Tombol */
+.btn-hijau{
+    background: var(--hijau);
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-hijau:hover{
+    background: #047857;
+}
+
+/* Badge */
+.badge-terbaik{
+    background: var(--hijau-muda);
+    color: var(--hijau-tua);
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
