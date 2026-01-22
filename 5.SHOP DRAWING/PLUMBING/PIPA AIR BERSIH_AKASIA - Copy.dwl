@@ -1,3 +1,0 @@
-ASUS
-LAPTOP-JFOQLT90 
-Monday, October 27, 2025  9:49:54 AM
